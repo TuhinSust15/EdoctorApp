@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EdoctorApp</string>
+    <string name="title_activity_home_page4_patient">HomePage4Patient</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="log_in">Log In</string>
+    <string name="do_not_have_an_edoctor_account">Do not have an eDoctor Account?</string>
+    <string name="email_or_phone">Email or Phone:</string>
+    <string name="password">Password:</string>
+    <string name="register_here">Register Here</string>
+</resources>
