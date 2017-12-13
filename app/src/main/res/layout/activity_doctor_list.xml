@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iftek.edoctorapp.DoctorList">
+
+    <TextView
+        android:id="@+id/tvDiseaseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Disease Name"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvDochere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDiseaseName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Available Doctors are Here"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btTestDoclist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDochere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:text="Doctor 1" />
+
+
+</RelativeLayout>

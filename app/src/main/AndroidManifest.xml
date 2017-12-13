@@ -22,9 +22,20 @@
         <activity android:name=".LogInPatient" />
         <activity android:name=".HomePat" />
         <activity
-            android:name=".Main2Activity"
+            android:name=".Main2ActivityP"
             android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DoctorList" />
+        <activity android:name=".DoctorDesignation" />
+        <activity android:name=".DoctorSlots" />
+        <activity android:name=".NumberConfirmation" />
+        <activity android:name=".SuccessBook" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ManageAppointment" />
+        <activity android:name=".HomeDoc"></activity>
     </application>
 
 </manifest>

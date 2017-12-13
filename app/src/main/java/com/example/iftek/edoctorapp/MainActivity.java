@@ -11,13 +11,14 @@ import android.widget.RadioGroup;
 public class MainActivity extends AppCompatActivity {
 
     RadioGroup rgFirstPage;
-    RadioButton myRadiobutton;
+    RadioButton patient,doctor;
     Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         rgFirstPage= (RadioGroup) findViewById(R.id.rgFirstPage);
+        patient = (RadioButton) findViewById(R.id.rbPatient);
         button =(Button) findViewById(R.id.button);
 
         myListener();

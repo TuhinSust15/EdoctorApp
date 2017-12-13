@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class LogInPatient extends AppCompatActivity {
     EditText etPatEmailL;
@@ -29,6 +30,10 @@ public class LogInPatient extends AppCompatActivity {
         btPatL.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+//                String email = etPatEmailL.getText().toString();
+//                if(email.isEmpty())
+//                    Toast.makeText(LogInPatient.this,"Email Is Emply",Toast.LENGTH_LONG).show();
+//                else Toast.makeText(LogInPatient.this,"Email Is "+email,Toast.LENGTH_LONG).show();
                 Intent HomepgPat= new Intent(LogInPatient.this,HomePat.class);
                 LogInPatient.this.startActivity(HomepgPat);
             }

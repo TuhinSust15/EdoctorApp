@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iftek.edoctorapp.NumberConfirmation">
+
+    <EditText
+        android:id="@+id/etConfirmNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/tvNumber"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:textSize="20dp"
+        android:height="40dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Confirm Your Phone Number"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btNumConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etConfirmNo"
+        android:layout_below="@+id/etConfirmNo"
+        android:layout_marginEnd="62dp"
+        android:layout_marginTop="122dp"
+        android:text="Confirm" />
+</RelativeLayout>

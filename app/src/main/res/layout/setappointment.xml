@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <CalendarView
+        android:id="@+id/calendarViewD"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/tvDate"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btDateDoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_below="@+id/etSetTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="20dp"
+        android:text="Select Your Date and Time"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etSetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="Enter Time:"
+        android:layout_below="@+id/calendarViewD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+</RelativeLayout>

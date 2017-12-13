@@ -12,4 +12,5 @@
     <string name="email_or_phone">Email or Phone:</string>
     <string name="password">Password:</string>
     <string name="register_here">Register Here</string>
+    <string name="title_activity_main3">Main3Activity</string>
 </resources>

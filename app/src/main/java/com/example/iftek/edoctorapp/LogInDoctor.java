@@ -28,8 +28,8 @@ public class LogInDoctor extends AppCompatActivity {
         btDocL.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // Intent HomePgDoc= new Intent(LogInDoctor.this,.....class);
-                //LogInDoctor.this.startActivity(HomePgDoc);
+               Intent HomePgDoc= new Intent(LogInDoctor.this,HomeDoc.class);
+                LogInDoctor.this.startActivity(HomePgDoc);
             }
         });
         tvDocRegdHereL.setOnClickListener(new View.OnClickListener() {
