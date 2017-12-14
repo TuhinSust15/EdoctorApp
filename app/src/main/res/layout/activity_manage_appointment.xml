@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.iftek.edoctorapp.ManageAppointment">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/tvSetComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="62dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Slot Added Successfuly"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="39dp" />
+
+    <TextView
+        android:id="@+id/tvthk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSetComplete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:textSize="20dp"
+        android:text="Thank You for your Contribution" />
+
+    <Button
+        android:id="@+id/btB2HomeD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvthk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:text="Back to Home" />
+</RelativeLayout>

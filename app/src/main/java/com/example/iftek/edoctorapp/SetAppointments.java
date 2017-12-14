@@ -35,8 +35,9 @@ public class SetAppointments extends Fragment {
         btDateDoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent timeSlot=new Intent(view.getContext(),ManageAppointment.class);
+               Intent timeSlot=new Intent(view.getContext(),ManageAppointment.class);
                 SetAppointments.this.startActivity(timeSlot);
+
             }
         });
     }
